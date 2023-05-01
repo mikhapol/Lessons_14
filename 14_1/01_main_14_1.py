@@ -6,7 +6,7 @@ class CustomStrip:
         return str.strip(self.__characters)
 
 
-cs = CustomStrip('$@%')
+cs = CustomStrip('$%@')
 string_to_clear = '#$Hello, world!%@'
 
 result = cs(string_to_clear)
